@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-tv/static/css/main.e907efa2.chunk.css",
+    "main.js": "/my-tv/static/js/main.066b047a.chunk.js",
+    "main.js.map": "/my-tv/static/js/main.066b047a.chunk.js.map",
+    "runtime~main.js": "/my-tv/static/js/runtime~main.25a808f2.js",
+    "runtime~main.js.map": "/my-tv/static/js/runtime~main.25a808f2.js.map",
+    "static/js/2.fe8e32d7.chunk.js": "/my-tv/static/js/2.fe8e32d7.chunk.js",
+    "static/js/2.fe8e32d7.chunk.js.map": "/my-tv/static/js/2.fe8e32d7.chunk.js.map",
+    "index.html": "/my-tv/index.html",
+    "precache-manifest.0e51de2aa20435f6dd681b71d8d18b9e.js": "/my-tv/precache-manifest.0e51de2aa20435f6dd681b71d8d18b9e.js",
+    "service-worker.js": "/my-tv/service-worker.js",
+    "static/css/main.e907efa2.chunk.css.map": "/my-tv/static/css/main.e907efa2.chunk.css.map"
+  }
+}
