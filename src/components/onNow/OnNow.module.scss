@@ -1,0 +1,86 @@
+.Events {
+	.Genre {
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+	.PosRl {
+		position: relative;
+	}
+	ul {
+		margin: 0 auto;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		flex-flow: row;
+		align-items: center;
+		text-align: center;
+		overflow: auto;
+		li {
+			margin: 5px;
+			box-sizing: border-box;
+			display: block;
+			width: auto;
+			padding: 5px;
+			position: relative;
+			min-width: 310px;
+			min-height: 327px;
+		}
+	}
+}
+.PosterImg {
+	img {
+		height: 200px;
+		width: 300px;
+	}
+	&:hover + .Title {
+		display: block;
+	}
+}
+
+.Logo {
+	img {
+		height: 40px;
+		width: 50px;
+	}
+}
+
+.Title {
+	pointer-events: none;
+	display: none;
+	p {
+		position: absolute;
+		text-align: center;
+		top: 5px;
+		padding: 0;
+		margin: 0;
+		left: 5px;
+		opacity: 0.7;
+		font-weight: bold;
+		background: black;
+		height: 200px;
+		width: 300px;
+		span {
+			padding: 90px 0px;
+			display: inline-block;
+		}
+	}
+}
+.NavigateBtn {
+	position: absolute;
+	top: 125px;
+	z-index: 999;
+	font-size: 21px;
+	background: #54626f;
+	border-radius: 50%;
+	cursor: pointer;
+	font-weight: 700;
+	border: solid 2px white;
+}
+.BtnLeft {
+	padding: 3px 14px 10px 12px;
+	left: 10px;
+}
+.BtnRight {
+	padding: 4px 11px 9px 13px;
+	right: 40px;
+}

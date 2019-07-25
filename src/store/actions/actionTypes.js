@@ -1,0 +1,5 @@
+export const FETCH_EVENTS_FAIL = 'FETCH_EVENTS_FAIL';
+export const FETCH_EVENTS = 'FETCH_EVENTS';
+export const FETCH_EVENTS_START = 'FETCH_EVENTS_START';
+
+
